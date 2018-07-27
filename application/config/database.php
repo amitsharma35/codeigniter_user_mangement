@@ -3,10 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 $active_group = 'default';
 $query_builder = TRUE;
-$hostname ="localhost";
-$username ="root";
-$password ="";
-$database ="ems_db";	
+$hostname ="{HOSTNAME}";
+$username ="{USERNAME}";
+$password ="{PASSWORD}";
+$database ="{DATABASE}";	
 
 $db['default'] = array(
 	'dsn'	=> '',
